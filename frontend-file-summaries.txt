@@ -1,0 +1,17 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router, layout, profile setup modal, PWA install prompt, service worker registration, and theme provider.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including user profiles, products, orders, and mutations with proper cache invalidation.",
+  "frontend/src/components/Header.tsx": "Responsive navigation header with authentication, user menu dropdown, and role-based navigation using proper enum comparison for farmer type checking.",
+  "frontend/src/components/Footer.tsx": "Simple footer component with branding and caffeine.ai attribution link.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time user profile setup with farmer/customer selection, using proper enum types from backend interface for userType field.",
+  "frontend/src/pages/HomePage.tsx": "Marketplace landing page with responsive hero section, sticky filters, mobile-optimized product grid, and order placement dialog.",
+  "frontend/src/pages/FarmerDashboardPage.tsx": "Responsive farmer dashboard with mobile-friendly stats cards, product listings, and recent orders optimized for small screens.",
+  "frontend/src/pages/AddProducePage.tsx": "Mobile-responsive form page for farmers to add produce with touch-friendly inputs and proper validation.",
+  "frontend/src/pages/OrdersPage.tsx": "Mobile-optimized orders management page with responsive tabs, compact order cards, and touch-friendly action buttons.",
+  "frontend/src/pages/ProfilePage.tsx": "Responsive user profile page with mobile-friendly layout, proper text wrapping, and flexible spacing for small screens.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring green agricultural theme for both light and dark modes.",
+  "frontend/index.html": "HTML entry point with PWA meta tags, manifest link, theme color, and mobile app configuration for standalone display mode.",
+  "frontend/public/manifest.json": "PWA manifest file defining app name, icons, theme colors, display mode, and language for installable web app experience.",
+  "frontend/public/service-worker.js": "Service worker implementing cache-first strategy for static assets and network-first for API calls with offline support.",
+  "frontend/src/components/InstallPrompt.tsx": "PWA installation prompt component that detects beforeinstallprompt event and displays dismissible card with install button."
+}
